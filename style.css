@@ -1,0 +1,92 @@
+
+
+*{
+    margin:0;
+    padding:0;
+}
+.sidebar{
+    background-color:rgb(111, 98, 100);
+    width:434px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: auto;
+   
+}
+.sidebar nav{
+    padding: 45px;
+    margin-top: 30px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:rgb(6, 6, 6);
+   
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+
+}
+.main{
+  
+    width: 90vw;
+}
+.container{
+    display: flex;
+
+}
+.infocontainer{
+   
+    height: 58vh;
+    width:80vw;
+    margin:144px auto;
+    display:flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display:flex;
+    flex-direction: column;
+  justify-content: center;
+}
+.hello{
+font-size: 75px;
+}
+.name{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.aboutme{
+    font-size: 60px;  
+}
+.moreaboutme{
+    font-size: 40px;
+    margin-top: 26px;
+    
+}
+.button{
+    margin-top: 30px;
+}
+.button button{
+    margin: 0 3px;
+    padding:9px 14px;
+    border-radius:5px ;
+    color: bisque;
+    background-color: rgb(79, 64, 68);
+    font-weight:bold ;
+    font-size:21px ;
+    cursor: pointer;
+    
+}
+.button button:hover{
+    color: rgb(52, 44, 36);
+    background-color: rgb(231, 223, 223);
+}
+.mypic img{
+    
+    height: 58vh;
+    box-shadow: 30px 30px 5px;
+  
+   
+
+}

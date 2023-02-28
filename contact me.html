@@ -1,0 +1,81 @@
+<html>
+    <title>Click for login</title>
+    <head>
+        <script>
+            function checkforblank(){
+                if(document.getElementById('fname').value == "") {
+                alert("please enter  your name");
+                return false;
+            }
+            if(document.getElementById('email id').value == "") {
+                alert("please enter  your email id");
+                return false;
+            }
+            }
+        </script>
+    </head>
+    <style>
+    body{
+        background-image:url("https://images.unsplash.com/photo-1593062096033-9a26b09da705?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d29ya3NwYWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+        background-size:cover ;
+        background-repeat: no-repeat;
+    }
+   </style>
+   <style>
+    p{
+        font-size:50;
+     font-weight: 10;
+     color: rgb(244, 237, 237);
+     text-align:center;
+     text-shadow: 3px;
+        
+    }
+    .button{
+    margin-top: 30px;
+}
+.button button{
+    margin: 0 3px;
+    padding:9px 14px;
+    border-radius:5px ;
+    color: rgb(10, 10, 10);
+    background-color: rgb(235, 232, 232);
+    font-weight:bold ;
+    font-size:21px ;
+    cursor: pointer;
+    
+}
+.button button:hover{
+    color: rgb(245, 243, 242);
+    background-color: rgb(2, 2, 2);
+}
+   </style>
+  
+    <br>
+<br>
+<br>
+<br>
+
+<body>
+
+        <center>
+    
+            <form action="file:///C:/Users/keerthanaprem/Desktop/contact%20me%201.html" method="post" onsubmit=" return checkforblank()">
+                <fieldset>
+                <label for="first name"><p style = "color:rgb(11, 11, 11);"><font face="lato" size ="5">FIRST NAME:</font>
+                  <input type="text"  id="fname" name="firstname"></label><br>
+                  <label for="email id"><p style = "color:rgb(11, 11, 11);"><font face="lato" size ="5">EMAIL ID:</font>
+                  <input type="email"  id="email id" name="email id"></label><BR>
+                    <BR>
+                        <div class="button">
+                            <a href="contact me 1.html">
+                       <button>contact me</button>
+                        </a>
+                            </div>
+                 </fieldset>
+                 </p>
+     
+     
+      </center>
+
+</body>
+</html>
